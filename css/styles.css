@@ -1,0 +1,112 @@
+:root {
+    --main-section-background-color: #22356F;
+    --main-text-color: #FFFFFF;
+    --help-link-color: #62D0DF;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ready-set-smile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-box {
+    display: block;
+    width: 960px;
+    height: 800px;
+    background-color: var(--main-section-background-color);
+}
+
+.contact-link {
+    display: block;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0.88;
+    letter-spacing: 0.06em;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--main-text-color);
+    margin-top: 103px;
+    margin-left: 180px;
+    text-decoration: none;
+    transition: 250ms linear 100ms;
+    cursor: pointer;
+}
+
+.title {
+    color: var(--main-text-color);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.7;
+    letter-spacing: -0.01em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 704px;
+    margin-top: 229px;
+    margin-left: 180px;
+    margin-right: 200px;
+}
+
+.main-text {
+    color: var(--main-text-color);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.7;
+    letter-spacing: -0.005em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 579px;
+    margin-top: 75px;
+    margin-left: 180px;
+}
+
+.help-link {
+    display: block;
+    color: var(--help-link-color);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    margin-top: 55px;
+    margin-bottom: 42px;
+    margin-left: 180px;
+    transition: 250ms linear 100ms;
+    cursor: pointer;
+}
+
+.man-photo {
+    display: block;
+    width: 480px;
+    height: 800px;
+}
+
+.contact-link:hover,
+.help-link:hover {
+    color: var(--help-link-color);
+}
+
+.contact-link:focus,
+.help-link:focus {
+    color: var(--help-link-color);
+}
